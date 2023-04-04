@@ -1,19 +1,20 @@
 html{
     scroll-behavior: smooth;
+    
 }
 body{
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: silver;
+    background-color: whitesmoke;
     font-size: 1rem;
     font-family: monospace;
-
+    
 }
 header{
     width: 100%;
-    background-color: slategray;
+    background-color:#c80e13 ;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 0;
@@ -21,7 +22,7 @@ header{
 
 }
 header h1{
-    background-color: silver;
+    background-color: rgb(42, 146, 211);
     padding: 0.5REM 2rem;
     font-size: 2.5rem;
 
@@ -51,7 +52,30 @@ nav ul li:hover{
     margin-left: 10px;
     margin-block-end: 10px;
 }
-
+#about{
+    background-color: #9df9ef;
+   background-image: url(../images/cloud.webp);
+}
+#work{
+    background-color:  #00DDFF;
+    background-image: url(../images/ierde.jpeg);
+    font-size: bold;
+    
+}
+#resume{
+    background-color:  #ffa8B6;
+    background-image: url(../images/0x0.jpg);
+    text-align: center;
+    font-weight: bold;
+   
+   
+}
+#contact{
+    background-color: #c80e13;
+    background-image:url(../images/slamdunk.jpeg) ;
+   
+    
+}
 main {
     display: flex;
     justify-content: space-between;
