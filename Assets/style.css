@@ -14,11 +14,13 @@ body{
 }
 header{
     width: 100%;
-    background-color:#c80e13 ;
+    background-color:#0b9df1 ;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 0;
     align-items: center;
+    background-image: url(../images/cloud.webp);
+    
 
 }
 header h1{
@@ -54,7 +56,7 @@ nav ul li:hover{
 }
 #about{
     background-color: #9df9ef;
-   background-image: url(../images/cloud.webp);
+   
 }
 #work{
     background-color:  #00DDFF;
@@ -67,6 +69,7 @@ nav ul li:hover{
     background-image: url(../images/0x0.jpg);
     text-align: center;
     font-weight: bold;
+    align-items: center;
    
    
 }
